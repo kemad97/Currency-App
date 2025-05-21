@@ -18,6 +18,7 @@
 		E155A2C32DDDB3BB00CAC97E /* Currency_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2C22DDDB3BB00CAC97E /* Currency_AppUITests.swift */; };
 		E155A2C52DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2C42DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift */; };
 		E155A2D22DDDB43D00CAC97E /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */; };
+		E155A2D62DDDC37A00CAC97E /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E155A2C22DDDB3BB00CAC97E /* Currency_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_AppUITests.swift; sourceTree = "<group>"; };
 		E155A2C42DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				E155A2AF2DDDB3BA00CAC97E /* Info.plist */,
 				E155A2A72DDDB3B900CAC97E /* Currency_App.xcdatamodeld */,
 				E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */,
+				E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */,
 			);
 			path = "Currency App";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155A2D62DDDC37A00CAC97E /* CurrencyCell.swift in Sources */,
 				E155A2D22DDDB43D00CAC97E /* CurrencyModel.swift in Sources */,
 				E155A2A92DDDB3B900CAC97E /* Currency_App.xcdatamodeld in Sources */,
 				E155A2A32DDDB3B900CAC97E /* ViewController.swift in Sources */,
