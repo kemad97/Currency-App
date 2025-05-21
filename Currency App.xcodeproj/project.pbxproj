@@ -19,6 +19,8 @@
 		E155A2C52DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2C42DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift */; };
 		E155A2D22DDDB43D00CAC97E /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */; };
 		E155A2D62DDDC37A00CAC97E /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */; };
+		E155A2D82DDDE0FA00CAC97E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2D72DDDE0FA00CAC97E /* Service.swift */; };
+		E155A2DC2DDDE1C400CAC97E /* CurrencyViewModell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A2DB2DDDE1C400CAC97E /* CurrencyViewModell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E155A2C42DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		E155A2D72DDDE0FA00CAC97E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E155A2DB2DDDE1C400CAC97E /* CurrencyViewModell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewModell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		E155A29D2DDDB3B900CAC97E /* Currency App */ = {
 			isa = PBXGroup;
 			children = (
+				E155A2DD2DDDE4BB00CAC97E /* Model */,
 				E155A29E2DDDB3B900CAC97E /* AppDelegate.swift */,
 				E155A2A02DDDB3B900CAC97E /* SceneDelegate.swift */,
 				E155A2A22DDDB3B900CAC97E /* ViewController.swift */,
@@ -113,8 +118,8 @@
 				E155A2AC2DDDB3BA00CAC97E /* LaunchScreen.storyboard */,
 				E155A2AF2DDDB3BA00CAC97E /* Info.plist */,
 				E155A2A72DDDB3B900CAC97E /* Currency_App.xcdatamodeld */,
-				E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */,
 				E155A2D52DDDC37A00CAC97E /* CurrencyCell.swift */,
+				E155A2DB2DDDE1C400CAC97E /* CurrencyViewModell.swift */,
 			);
 			path = "Currency App";
 			sourceTree = "<group>";
@@ -134,6 +139,23 @@
 				E155A2C42DDDB3BB00CAC97E /* Currency_AppUITestsLaunchTests.swift */,
 			);
 			path = "Currency AppUITests";
+			sourceTree = "<group>";
+		};
+		E155A2DD2DDDE4BB00CAC97E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E155A2DF2DDDE4E500CAC97E /* service */,
+				E155A2D12DDDB43D00CAC97E /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E155A2DF2DDDE4E500CAC97E /* service */ = {
+			isa = PBXGroup;
+			children = (
+				E155A2D72DDDE0FA00CAC97E /* Service.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E155A2D62DDDC37A00CAC97E /* CurrencyCell.swift in Sources */,
+				E155A2D82DDDE0FA00CAC97E /* Service.swift in Sources */,
 				E155A2D22DDDB43D00CAC97E /* CurrencyModel.swift in Sources */,
 				E155A2A92DDDB3B900CAC97E /* Currency_App.xcdatamodeld in Sources */,
 				E155A2A32DDDB3B900CAC97E /* ViewController.swift in Sources */,
 				E155A29F2DDDB3B900CAC97E /* AppDelegate.swift in Sources */,
+				E155A2DC2DDDE1C400CAC97E /* CurrencyViewModell.swift in Sources */,
 				E155A2A12DDDB3B900CAC97E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
