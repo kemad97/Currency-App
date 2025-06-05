@@ -18,6 +18,24 @@ enum Currency: String, CaseIterable, Codable {
     case GBP = "GBP"
     case JPY = "JPY"
     case AUD = "AUD"
+    case CAD = "CAD"
+    case CHF = "CHF"
+    case CNY = "CNY"
+    case INR = "INR"
+    
+    var symbol: String {
+        switch self {
+        case .USD: return "$"
+        case .EUR: return "€"
+        case .GBP: return "£"
+        case .JPY: return "¥"
+        case .AUD: return "A$"
+        case .CAD: return "C$"
+        case .CHF: return "CHF"
+        case .CNY: return "¥"
+        case .INR: return "₹"
+        }
+    }
    
     
     var displayName: String {

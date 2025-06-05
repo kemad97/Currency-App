@@ -95,11 +95,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let sortedCurrencies = rates.keys.sorted()
         
         let currencyCode = sortedCurrencies[indexPath.row]
-        let rate = rates[currencyCode] ?? 0
-
-        
-        cell.textLabel?.text = "1 \(selectedBaseCurrency) = \(rate) \(currencyCode)"
-
+        if let rate = rates[currencyCode] {
+               cell.textLabel?.text = String(format: "%.4f %@", rate, currencyCode)
+           }
         return cell
     }
     
